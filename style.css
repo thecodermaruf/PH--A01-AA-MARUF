@@ -142,6 +142,61 @@ nav .menu ul{
 }
 /* section speaker end */
 
+/* section pricing start */
+.price-card {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding: 40px 0;
+}
+
+.price-card h3 {
+    text-align: center;
+    font-size: 48px;
+}
+
+.price-card p {
+    text-align: center;
+    font-size: 16px;
+    color: #575757;
+    padding-top: 20px;
+}
+
+.price-card .sys {
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.price-card .sys div {
+    border: solid 1.5px #E5E7EB;
+    width: 350px;
+    height: 444px;
+    border-radius: 10px;
+    padding: 22px 25px;
+}
+
+.price-card .sys div span {
+    color: #888888;
+    font-size: 13px;
+}
+
+.price-card .sys div h2 {
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+    padding: 7px 0;
+}
+
+
+.price-card .sys div ul  {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: solid 1px #888888;
+} 
+/* section pricing end */
+
 /* footer start */
 footer {
     background-color: #0D1B2A;
