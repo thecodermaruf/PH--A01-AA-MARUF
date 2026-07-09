@@ -146,6 +146,8 @@ nav .menu ul{
 footer {
     background-color: #0D1B2A;
     color: white;
+    width: 100%;
+    height: 160px;
 }
 .foot {
     display: flex;
@@ -154,6 +156,69 @@ footer {
     font-size: 16px;
     padding: 60px 0;
 } 
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.icon a {
+    width: 40px;
+    height: 40px;
+    border: solid 1px white;
+    text-decoration: none;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    transition: all .3s ease-in-out;
+}
+
+.icon a:hover {
+    background-color: white;
+}
+
+.icon .facebook {
+    font-size: 25px;
+    transition: all .3s ease-in-out;
+}
+
+.icon .facebook:hover {
+    color: #0862F7;
+}
+
+.icon .telegram {
+    font-size: 25px;
+    transition: all .3s ease-in-out;
+}
+
+.icon .telegram:hover {
+    color: #27A3E2;
+}
+
+.icon .linkedin {
+    font-size: 25px;
+    transition: all .3s ease-in-out;
+}
+
+.icon .linkedin:hover {
+    color: #007AB5;
+}
+
+.icon .github {
+    font-size: 25px;
+    color: white;
+    transition: all .3s ease-in-out;
+}
+
+.icon .github:hover {
+    color: black;
+}
+
 .foot .privacy-terms {
     display: flex;
     justify-content: center;
