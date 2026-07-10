@@ -56,6 +56,11 @@ nav .menu ul{
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
+    transition: all .3s ease-out;
+}
+.button:hover {
+    background-color: #0D1B2A;
+    border: solid 1.5px white;
 }
 /* nav end */
 /* section banner start  */
