@@ -182,6 +182,22 @@ nav .menu ul{
     font-size: 13px;
 }
 
+.price-card .sys .pro {
+    background-color: #0D1B2A;
+}
+
+.price-card .sys .pro h2 {
+    color: white;
+} 
+
+.price-card .sys .pro .list li {
+    color: white;
+}
+
+.price-card .sys div .pro-card {
+    color: #93C5FD;
+}
+
 .price-card .sys div h2 {
     font-size: 44px;
     font-weight: bold;
@@ -218,7 +234,9 @@ nav .menu ul{
     top: -12px;
 }
 
-.price-card .sys div .btn {
+.price-card .sys div .btn-standard,
+.btn-pro,
+.btn-team {
     width: 250px;
     cursor: pointer;
     padding: 12px 24px;
@@ -226,7 +244,21 @@ nav .menu ul{
     color: 2563eb;
     background-color: transparent;
     margin: -12px 24px;
-    
+}
+.price-card .sys div .btn-standard {
+    border: solid 1.5px blue;
+    color: blue;
+}
+
+.price-card .sys div .btn-pro {
+    border: blue;
+    background-color: blue;
+    color: white;
+}
+
+.price-card .sys div .btn-team {
+    border: solid 1.5px #0D1B2A;
+    color: #0D1B2A;
 }
 
 /* section pricing end */
