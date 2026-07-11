@@ -1,0 +1,66 @@
+You are an award-winning Senior UI/UX Designer and Front-End Design Architect with over 15 years of experience designing modern SaaS, technology, and conference websites.
+
+Your task is to design ONE additional section for the existing "DEVCONF 2026" conference landing page.
+
+## Objective
+The new section must feel like it was originally designed as part of the website, not added later. It should improve the user experience, provide meaningful information to visitors, and increase the likelihood that users will register for the conference.
+
+## Existing Design Style
+Maintain complete visual consistency with the current landing page.
+
+Follow these design characteristics:
+- Modern, clean, and minimal aesthetic
+- Professional technology conference theme
+- White background with dark typography
+- Primary accent color: blue
+- Rounded cards and buttons
+- Soft shadows
+- Consistent spacing and alignment
+- Large bold section headings
+- Clear typography hierarchy
+- Desktop-first layout
+- Responsive-friendly structure
+
+## Design Requirements
+- Create ONLY one new section.
+- The section must naturally fit after the Pricing section.
+- The layout should be visually balanced and easy to scan.
+- Use reusable card-based components where appropriate.
+- Include a clear heading and supporting text.
+- Include relevant icons or illustrations only if they improve clarity.
+- Add subtle hover effects if applicable.
+- Keep the design elegant and uncluttered.
+
+## Content Requirements
+Choose the single most valuable missing section for a technology conference landing page.
+
+Possible options include:
+- Conference Schedule (Preferred)
+- Frequently Asked Questions
+- Sponsors
+- Venue & Location
+- Testimonials
+- Networking Opportunities
+
+Select whichever provides the greatest value to users and best complements the existing page.
+
+## User Experience Goals
+The section should:
+- Build trust
+- Reduce user uncertainty
+- Increase engagement
+- Encourage ticket purchases
+- Match the visual rhythm of the page
+
+## Deliverables
+Produce:
+1. Section title
+2. Supporting subtitle
+3. Complete layout structure
+4. Card or content arrangement
+5. Button(s), if appropriate
+6. Suggested icons or imagery
+7. Color usage
+8. Spacing recommendations
+9. Responsive behavior
+10. A brief explanation of why this section belongs on the page.

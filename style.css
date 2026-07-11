@@ -2,9 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/* this root give me AI for this section I mean "Generate a relevant section with AI" but I know how to use this root and I did't use this root in another sections I hope I made you understand */
 
+/* Design Tokens - Seamless Integration Matchers */
 :root {
-    /* Design Tokens - Seamless Integration Matchers */
+    
     --clr-bg-white: #ffffff;
     --clr-bg-alt: #f8fafc;
     --clr-primary: blue;
@@ -32,7 +34,7 @@
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* root end */
 
 *{
     margin: 0;
@@ -301,7 +303,7 @@ nav .menu ul{
 
 /* section pricing end */
 
-/* Generate a relevant section with AI start */
+/* Generate a relevant section with AI star / there isn't any AI code here but this section because you said for creating this section with AI without this section you won't get any code generate by AI */
 /* Base Layout & Hierarchy */
 .schedule-section {
     background-color: var(--clr-bg-white);
@@ -335,7 +337,6 @@ nav .menu ul{
     color: var(--clr-text-muted);
 }
 
-/* Responsive Grid Integration (Desktop-First architecture layout fallback) */
 .schedule-grid {
     display: grid;
     gap: var(--space-lg);
