@@ -2,12 +2,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
 :root {
-    /* Design Tokens */
+    /* Design Tokens - Seamless Integration Matchers */
     --clr-bg-white: #ffffff;
     --clr-bg-alt: #f8fafc;
     --clr-primary: blue;
-    --clr-primary-hover: #0D1B2A;
+    --clr-primary-hover: #0f172a;
     --clr-text-main: #0f172a;
     --clr-text-muted: #475569;
     --clr-border: #e2e8f0;
@@ -31,6 +32,7 @@
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 *{
     margin: 0;
@@ -150,7 +152,7 @@ nav .menu ul{
 }
 
 .speaker .cards .card {
-    border: solid 1px #e5e7eb;
+    border: solid 1.5px #e5e7eb;
     border-radius: 12px;
     overflow: hidden;
     
@@ -300,14 +302,13 @@ nav .menu ul{
 /* section pricing end */
 
 /* Generate a relevant section with AI start */
-* Base Layout & Hierarchy */
+/* Base Layout & Hierarchy */
 .schedule-section {
     background-color: var(--clr-bg-white);
-    padding: var(--space-xxl) var(--space-md);
+    padding: var(--space-md);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color: var(--clr-text-main);
     line-height: 1.5;
-    margin-bottom: 20px;
 }
 
 .schedule-container {
@@ -334,11 +335,11 @@ nav .menu ul{
     color: var(--clr-text-muted);
 }
 
-/* Responsive Grid Integration */
+/* Responsive Grid Integration (Desktop-First architecture layout fallback) */
 .schedule-grid {
     display: grid;
     gap: var(--space-lg);
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
     margin-bottom: var(--space-xl);
     align-items: start;
 }
